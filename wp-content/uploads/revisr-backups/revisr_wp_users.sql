@@ -14,7 +14,7 @@ CREATE TABLE `wp_users` (
   KEY `user_login_key` (`user_login`),
   KEY `user_nicename` (`user_nicename`),
   KEY `user_email` (`user_email`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 LOCK TABLES `wp_users` WRITE;
-INSERT INTO `wp_users` VALUES ('1','daleep','$P$Bk16vHwFR1cPSTGjp4p05o5uEa13X1/','daleep','daleep.kbizsoft@gmail.com','','2019-04-26 08:31:00','','0','daleep');
+INSERT INTO `wp_users` VALUES ('1','daleep','$P$Bk16vHwFR1cPSTGjp4p05o5uEa13X1/','daleep','daleep.kbizsoft@gmail.com','','2019-04-26 08:31:00','','0','daleep'), ('2','test','$P$BwqdxdptC0CXZvLml3jZwUP/1jNcJU.','test','shiva.kbizsoft@gmail.com','','2019-04-26 12:25:37','','0','Test test');
 UNLOCK TABLES;
